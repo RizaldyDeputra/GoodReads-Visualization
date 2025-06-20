@@ -29,8 +29,6 @@ if uploaded_file is not None:
     if selected_genres:
         filtered_df = filtered_df[filtered_df['genre'].apply(lambda x: any(g in x for g in selected_genres))]
     
-    st.title("📚 Goodreads 100K Books Dashboard")
-    
     st.markdown("""
     Gunakan filter di sebelah kiri untuk mengeksplorasi buku berdasarkan genre, rating, dan jumlah halaman.
     """)
