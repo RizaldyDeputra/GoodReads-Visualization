@@ -1,25 +1,12 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📚 Goodreads 100K Books Dashboard
+Dashboard interaktif untuk eksplorasi dataset 100.000 buku dari Goodreads. Dibangun menggunakan Streamlit dan Plotly, dashboard ini memungkinkan pengguna untuk memfilter dan memvisualisasikan data buku berdasarkan genre, rating, jumlah halaman, dan lainnya.
 
-Description of the app ...
+## 🎯 Fitur Utama
+🎨 Visualisasi Interaktif: Scatter plot dan bar chart dengan zoom, pan, tooltips, dan brushing.
 
-## Demo App
+🔍 Filter Dinamis: Slider dan dropdown untuk rating, genre, serta jumlah halaman.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+🧾 Details-on-Demand: Tabel buku dengan informasi lengkap dan dapat diurutkan.
 
-## GitHub Codespaces
+📊 Analisis Genre: Menampilkan genre dengan rating tertinggi.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
