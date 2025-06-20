@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(
+    page_title="GoodReads Dataset Visualization",
+    page_icon="📚",
+    layout="wide"
+)
+
 st.title("📚 Goodreads 100K Books Dashboard")
 
 # Upload dataset dari UI
